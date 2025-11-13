@@ -1,0 +1,40 @@
+{
+  "name": "Adhira John",
+  "major": "Computer Science",
+  "year": "3rd",
+  "skills": ["Databricks", "Tensorflow", "Supervised ML", "SQL", "Unity", "Python", "Java", "Java FX", "R", "C", "C#", "Git", 
+            "Agile", "AArch64 Assembly", "Blender", "Figma", "Nmap", "Telus CHR", "Microsoft Office Suite", "ROS2"],
+  "hobbies": ["knitting", "reading", "sewing", "running"],
+  "projects": [
+    {
+      "title": "Augmented Reality Headset Prototype",
+      "description": "VP Software at UCXR to create a custom Augmented Reality (AR) headset from the bottom up.",
+      "keywords": ["Research and Development (R&D)", "Project Planning", "Team Management", "Teamwork", "Technical Documentation",  
+                "Unity", "Hardware Sensors", "GitHub", "Blender", "computer vision", "3D mapping", "spatial computing", "ROS2"]
+    },
+    {   
+      "title": "UCXR Website",
+      "description": "Redesigned UCXR Website",
+      "keywords": ["HTML", "CSS"]
+    },
+    {
+    "title": "Supervised Machine Learning to Predict Lung Cancer Risk",
+    "description": "Worked under Dr. Shawn Xu at the Center for Health Informatics, University of Calgary. Developed a basic Machine Learning (ML) model to predict the risk of lung cancer using a dataset, improving model accuracy through testing and strategies addressing data imbalance. Maintained clear and consistent communication with supervisors to overcome project challenges and ensure timely progress. Presented the project at the HYRS 2022 Open House event, engaging with the public, peers, and experts in the field.",
+    "keywords": ["Machine Learning", "Research", "Data Analysis", "Health Informatics", "Communication", "Presentation", "Python", "Data Imbalance", "Project Management"]
+    },
+    {
+    "title": "Youreka Research Project",
+    "description": "Designed and executed a self-directed research project in collaboration with a team under mentorship guidance. Utilized R programming to conduct statistical analysis on real-world datasets, demonstrating strong analytical and technical skills. Reviewed and synthesized academic literature to inform research direction and co-authored a manuscript summarizing the findings. Presented project outcomes at the Youreka 2022 Symposium to peers and professionals, showcasing effective communication and presentation abilities.",
+    "keywords": ["R", "Data Analysis", "Statistical Analysis", "Research", "Academic Writing", "Manuscript Development", "Poster Presentation", "Teamwork", "Datasets", "Communication"]
+    }
+
+  ],
+    "experience": [
+    {
+        "role": "Receptionist",
+        "organization": "Medical Clinic",
+        "description": "Maintained exceptional confidentiality protocols and delivered client-oriented service while ensuring a professional environment in a fast-paced clinic. Demonstrated adeptness in managing appointments, patient documentation, and records using Telus CHR, while handling decision-making and multitasking in a busy setting. Managed correspondence with pharmacies and other external entities through clear, professional communication, and supported patients from diverse backgrounds both remotely and in person.",
+        "keywords": ["confidentiality", "administration", "Telus CHR", "communication", "patient support", "multitasking", "organization", "Poster"]
+    }
+    ]
+}
