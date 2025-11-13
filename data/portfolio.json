@@ -1,7 +1,4 @@
 {
-  "name": "Adhira John",
-  "major": "Computer Science",
-  "year": "3rd",
   "skills": ["Databricks", "Tensorflow", "Supervised ML", "SQL", "Unity", "Python", "Java", "Java FX", "R", "C", "C#", "Git", 
             "Agile", "AArch64 Assembly", "Blender", "Figma", "Nmap", "Telus CHR", "Microsoft Office Suite", "ROS2"],
   "hobbies": ["knitting", "reading", "sewing", "running"],

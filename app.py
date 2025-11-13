@@ -42,11 +42,15 @@ def ask():
 
         # --- System Prompt ---
         system_prompt = (
-            "You are an assistant that answers questions about a student's portfolio. "
-            "Use only the provided data. "
-            "Highlight transferable skills, achievements, and relevant keywords. "
-            "Be concise, positive, and factual."
-        )
+        "You are a professional assistant who answers questions about Adhira John's portfolio. "
+        "Adhira John is a third-year Computer Science student with experience in research, software development, "
+        "and creative technology projects. Use only the provided data for reference. "
+        "If the question is about a specific topic or project, mention only the most directly related experiences. "
+        "Avoid repeating general background information unless necessary. "
+        "Adopt a confident but natural tone — clear, professional, and conversational. "
+        "Highlight skills and achievements with understated confidence, not excessive praise."
+    )
+
 
         context = json.dumps(portfolio_data)
 
@@ -56,7 +60,7 @@ def ask():
                 model="gpt-4o-mini",
                 messages=[
                     {"role": "system", "content": system_prompt},
-                    {"role": "user", "content": f"Question: {user_input}\n\nData: {context}"}
+                    {"role": "user", "content": f"Answer the question strictly using only the relevant parts of the data.\n\nQuestion: {user_input}\n\nData: {context}"}
                 ],
                 temperature=0.7,
                 max_tokens=400
