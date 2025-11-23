@@ -17,7 +17,7 @@ CORS(app)
 
 @app.route("/")
 def index():
-    return app.send_static_file("index.html")
+    return app.send_static_file("queryChat.html")
 
 # Load portfolio data once at startup
 with open("data/portfolio.json", "r") as f:

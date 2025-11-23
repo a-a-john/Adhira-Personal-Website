@@ -3486,6 +3486,26 @@ img.u-pull-left {
     letter-spacing : 0;
 }
 
+/* for new skills stuff */
+.skill-tags {
+    list-style: none;
+    padding: 0;
+    margin: 1.5rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.skill-tags li {
+    background: #f0f0f0;
+    padding: 10px 16px;
+    border-radius: 20px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+
 /* --------------------------------------------------------------------
  * ## about clients
  * -------------------------------------------------------------------- */
